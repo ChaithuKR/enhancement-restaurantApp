@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+  height: 60px;
+  max-width: 100%;
+  overflow-x: auto;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.item {
+  margin: 10px;
+  color: black;
+  border-width: 0px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.bg-container {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  overflow-y: auto;
+  width: 100%;
+  padding: 4px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head-c {
+  display: flex;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+}
+
+.head {
+  text-align: center;
+}
